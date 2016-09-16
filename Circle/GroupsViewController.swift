@@ -47,7 +47,7 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let group = groupTableView.dequeueReusableCell(withIdentifier: "Group")
         group?.textLabel?.text = groupName[indexPath.row]
-        group?.detailTextLabel?.text = "Last Chat summary"
+        group?.detailTextLabel?.text = "Last Chat summary \nLast Chat summary"
         group?.imageView?.image = #imageLiteral(resourceName: "group")
         return group!
     }
