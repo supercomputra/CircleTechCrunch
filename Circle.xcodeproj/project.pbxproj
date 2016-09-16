@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E1F03B91D8BC83D000AFE8B /* GroupInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F03B81D8BC83D000AFE8B /* GroupInfoTableViewController.swift */; };
+		6E1F03BB1D8BC9AB000AFE8B /* AddMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F03BA1D8BC9AB000AFE8B /* AddMemberViewController.swift */; };
 		6E888B8D1D8BA0B700CBD6B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E888B8C1D8BA0B700CBD6B9 /* AppDelegate.swift */; };
 		6E888B8F1D8BA0B700CBD6B9 /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E888B8E1D8BA0B700CBD6B9 /* GroupsViewController.swift */; };
 		6E888B911D8BA0B700CBD6B9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E888B901D8BA0B700CBD6B9 /* SettingsViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E1F03B81D8BC83D000AFE8B /* GroupInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupInfoTableViewController.swift; sourceTree = "<group>"; };
+		6E1F03BA1D8BC9AB000AFE8B /* AddMemberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMemberViewController.swift; sourceTree = "<group>"; };
 		6E888B891D8BA0B700CBD6B9 /* Circle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Circle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E888B8C1D8BA0B700CBD6B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E888B8E1D8BA0B700CBD6B9 /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 			children = (
 				6E888B8C1D8BA0B700CBD6B9 /* AppDelegate.swift */,
 				6E888B8E1D8BA0B700CBD6B9 /* GroupsViewController.swift */,
+				6E1F03B81D8BC83D000AFE8B /* GroupInfoTableViewController.swift */,
+				6E1F03BA1D8BC9AB000AFE8B /* AddMemberViewController.swift */,
 				6E888BA01D8BA33800CBD6B9 /* ChatViewController.swift */,
 				6E888B901D8BA0B700CBD6B9 /* SettingsViewController.swift */,
 				6E888B921D8BA0B700CBD6B9 /* Main.storyboard */,
@@ -144,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E888B911D8BA0B700CBD6B9 /* SettingsViewController.swift in Sources */,
+				6E1F03B91D8BC83D000AFE8B /* GroupInfoTableViewController.swift in Sources */,
+				6E1F03BB1D8BC9AB000AFE8B /* AddMemberViewController.swift in Sources */,
 				6E888B8D1D8BA0B700CBD6B9 /* AppDelegate.swift in Sources */,
 				6E888BA11D8BA33800CBD6B9 /* ChatViewController.swift in Sources */,
 				6E888B8F1D8BA0B700CBD6B9 /* GroupsViewController.swift in Sources */,
@@ -275,6 +283,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zulwiyozaputra.Circle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -288,6 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zulwiyozaputra.Circle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -310,6 +320,7 @@
 				6E888B9F1D8BA0B700CBD6B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
