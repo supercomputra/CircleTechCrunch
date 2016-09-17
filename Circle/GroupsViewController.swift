@@ -22,6 +22,7 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
         "Group 4",
         "Group 5"]
     
+    
     func addGroup() -> Void {
         let alert = UIAlertController(title: "Add Group", message: "Please add the name of your group", preferredStyle: UIAlertControllerStyle.alert)
         alert.addTextField { (groupNameTextField) in
